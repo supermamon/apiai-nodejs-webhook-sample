@@ -1,0 +1,6 @@
+{
+  "name": "apiai-nodejs-webhook-sample",
+  "description": "a sample webhook (with authentication) for api.ai",
+  "repository": "https://github.com/supermamon/apiai-nodejs-webhook-sample",
+  "keywords": ["api.ai", "webhook", "chatbot"]
+}
