@@ -1,0 +1,142 @@
+{
+  "templates": [
+    "You can call me @sys.given-name:given-name ",
+    "My friends call me @sys.given-name:given-name ",
+    "@sys.given-name:given-name is my name.",
+    "I am called @sys.given-name:given-name ",
+    "Hello, this is @sys.given-name:given-name ",
+    "Hi, my name is @sys.given-name:given-name "
+  ],
+  "userSays": [
+    {
+      "id": "a21b328e-2096-4e79-902a-67adddb7c788",
+      "data": [
+        {
+          "text": "You can call me "
+        },
+        {
+          "text": "John",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9be21e4-12bd-4fdd-9cd9-0f8569c9abf8",
+      "data": [
+        {
+          "text": "My friends call me "
+        },
+        {
+          "text": "John",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff80645b-fdbc-470a-8151-acd862d2863b",
+      "data": [
+        {
+          "text": "John",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " is my name."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bab741b-5ed5-4761-8d62-e5110cbd045e",
+      "data": [
+        {
+          "text": "I am called "
+        },
+        {
+          "text": "John",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec1c9e61-25bf-4431-85c8-bd1f6ec6fd7f",
+      "data": [
+        {
+          "text": "Hello, this is "
+        },
+        {
+          "text": "John",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efb72216-8949-4743-a45a-45adc06f4235",
+      "data": [
+        {
+          "text": "Hi, my name is "
+        },
+        {
+          "text": "John",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b973856f-7277-46b6-a8b8-4fa3a3c8f21f",
+  "name": "Welcome User",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome.user",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Welcome $given-name!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
