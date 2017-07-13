@@ -21,7 +21,7 @@
     "express": "^4.15.3"
   },
   "engines": {
-    "node": "7.10.0"
+    "node": "8.1.4"
   },
   "bugs": {
     "url": "https://github.com/supermamon/apiai-nodejs-webhook-sample/issues"
